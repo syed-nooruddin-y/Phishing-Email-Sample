@@ -6,27 +6,37 @@ Phishing email analysis project demonstrating detection of spoofed senders, susp
 ## 🚀 How To Use
 
 1. Clone or download the repository  
-2. Open **report.md** to read the full analysis  
+2. Open **README.md** to read the full analysis  
 3. View screenshots in the `/screenshots` folder  
 4. Use this repo as a reference for cybersecurity assignments or practice  
 
 
+
 ## 🔐 Features
 
-- **Detects virus and malware signatures**  
-  Uses pattern matching to identify known malicious strings and behavior.
+- **Analyzes phishing emails step-by-step**  
+  Follows an 8-stage investigation method to break down every part of a suspicious email.
 
-- **Scans and flags phishing URLs**  
-  Checks for suspicious domains, redirections, and common phishing indicators.
+- **Inspects sender information for spoofing**  
+  Verifies whether the sender’s domain is legitimate or impersonated.
 
-- **Analyzes file contents for suspicious patterns**  
-  Detects harmful keywords, embedded scripts, and unsafe code constructs.
+- **Evaluates availability and authenticity of email headers**  
+  Identifies missing or fake header fields such as SPF, DKIM, and DMARC.
 
-- **Generates detailed threat reports**  
-  Outputs clear explanations of detected issues to help users understand risks.
+- **Flags suspicious buttons and embedded links**  
+  Detects fake login pages, unverifiable URLs, and phishing redirects.
 
-- **Lightweight and built entirely in C**  
-  Optimized for speed and low resource usage, suitable for small systems.
+- **Identifies urgency and social-engineering triggers**  
+  Highlights fear-based or action-forcing messages used to manipulate the victim.
+
+- **Checks for mismatched or misleading URLs**  
+  Compares visible link text with expected domains to identify deception.
+
+- **Assesses the email for grammar and formatting abnormalities**  
+  Notes inconsistencies that indicate low-quality phishing attempts.
+
+- **Generates a clear summary of phishing traits**  
+  Produces a final assessment listing all red flags and a verdict on whether the email is malicious.
 
 
 ## 📘 What I Learned 

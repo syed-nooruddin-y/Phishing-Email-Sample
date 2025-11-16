@@ -1,10 +1,10 @@
-# 🛡️ Phishing Email Sample – Analysis Project
+#  Phishing Email Sample – Analysis Project
 
 This repository contains a phishing email analysis project demonstrating detection of spoofed senders, suspicious links, header verification issues, urgency indicators, and common phishing traits based on an online sample.
 
 ---
 
-## 🔐 Features
+##  Features
 
 - **Analyzes phishing emails step-by-step**  
   Implements an 8-stage investigation method to break down every part of a suspicious email.
@@ -32,33 +32,33 @@ This repository contains a phishing email analysis project demonstrating detecti
 
 ---
 
-## 📘 What I Learned 
+##  What I Learned 
 
-### 🔹 1. How phishing samples are obtained  
+###  1. How phishing samples are obtained  
 I learned how phishing emails are collected from trusted cybersecurity training sites and how attackers structure fake messages.
 
-### 🔹 2. Identifying spoofed sender addresses  
+###  2. Identifying spoofed sender addresses  
 I learned how to verify whether a sender domain is official or impersonated.  
 In this sample, **wise.promotions@webnotifications.net** is *not* an official Wise domain.
 
-### 🔹 3. The role of email headers  
+###  3. The role of email headers  
 I learned what email headers contain (Return-Path, Received, SPF, DKIM, DMARC) and how they help prove authenticity.  
 This sample did not include raw headers, so I learned how to properly document that limitation.
 
-### 🔹 4. Detecting suspicious links  
+###  4. Detecting suspicious links  
 I learned that phishing emails often use login buttons or hyperlinks that visually appear safe but redirect to malicious websites.  
 Since screenshots cannot show hover URLs, I learned how to treat such links as suspicious.
 
-### 🔹 5. Spotting urgent or threatening language  
+###  5. Spotting urgent or threatening language  
 I recognized how phishing messages use urgency or fear (“Log in”, “Sign up now”, “Action required”) to push victims into quick actions.
 
-### 🔹 6. Finding mismatched URLs  
+###  6. Finding mismatched URLs  
 I learned to compare visible link text with expected domains and detect mismatched, unusual, or misleading URLs.
 
-### 🔹 7. Checking grammar and writing style  
+###  7. Checking grammar and writing style  
 I learned that phishing messages may contain correct or incorrect grammar, but grammar alone cannot confirm legitimacy.
 
-### 🔹 8. Summarizing phishing traits  
+###  8. Summarizing phishing traits  
 I learned to combine all findings into a structured conclusion including spoofed domains, suspicious buttons, urgency tactics, URL mismatch, and missing headers.
 
 **Overall:**  
@@ -66,7 +66,7 @@ I learned how to systematically analyze a phishing email using an 8-step method 
 
 ---
 
-## 📝 Summary of Findings
+##  Summary of Findings
 
 From the phishing sample:
 
